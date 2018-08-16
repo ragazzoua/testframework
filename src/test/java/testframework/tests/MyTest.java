@@ -12,6 +12,7 @@ public class MyTest extends BaseTest {
     @Test
     public void testSignUpBtn() throws InterruptedException {
         app.home.clickSignUpBtn();
+
     }
 
 }

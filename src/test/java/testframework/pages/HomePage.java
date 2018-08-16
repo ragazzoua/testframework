@@ -11,7 +11,15 @@ public class HomePage extends BasePage {
     @FindBy(id = "btn-register")
     private WebElement signUpBtn;
 
+	@FindBy(id = "btn-login")
+	private WebElement loginBtn;
+
+
     public void clickSignUpBtn() {
         signUpBtn.click();
+    }
+
+    public void clickLoginBtn(){
+        loginBtn.click();
     }
 }
