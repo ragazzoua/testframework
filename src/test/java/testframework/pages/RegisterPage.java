@@ -9,13 +9,12 @@ import org.openqa.selenium.support.FindBy;
 
 public class RegisterPage extends BasePage {
 
-    @FindBy(className = "checkmark")
+    @FindBy(xpath = "/html/body/div[1]/div/div/div[2]/div/div/div[2]/div/form/div[6]/div")
     private WebElement checkMark;
 
     public void setCheckMark(boolean value) {
         if (!checkMark.isSelected() == value) {
             checkMark.click();
         }
-
     }
 }

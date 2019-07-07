@@ -11,7 +11,7 @@ public class MyTest extends BaseTest {
 
     @Test
     public void testSignUpBtn() throws InterruptedException {
-        app.home.clickSignUpBtn().setCheckMark(false);
+        app.home.clickSignUpBtn().setCheckMark(true);
         Thread.sleep(5000);
 
 

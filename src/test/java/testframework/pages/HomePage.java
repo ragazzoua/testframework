@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
  */
 
 public class HomePage extends BasePage {
-    @FindBy(id = "btn-register")
+    @FindBy(id = "register-btn")
     private WebElement signUpBtn;
 
 	@FindBy(id = "btn-login")

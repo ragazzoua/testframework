@@ -17,6 +17,6 @@ dependencies {
     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server
     compile group: 'org.seleniumhq.selenium', name: 'selenium-server', version: '3.14.0'
     // https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
-    compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '2.2.4'
+    compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '3.6.1'
 
 }
