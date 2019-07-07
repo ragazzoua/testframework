@@ -1,6 +1,7 @@
 package testframework.pages;
 
 import io.github.bonigarcia.wdm.ChromeDriverManager;
+import io.github.bonigarcia.wdm.DriverManagerType;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,7 +17,7 @@ public class BasePage {
     protected static WebDriver driver;
 
     static {
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.getInstance(DriverManagerType.CHROME).setup();
         driver = new ChromeDriver();
         driver.get(BASE_URL);
         driver.manage().window().maximize();
